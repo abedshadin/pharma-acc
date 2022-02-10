@@ -9,7 +9,7 @@ userInputField.value = '';
 passInputField.value = '';
 
 if(userInput == 'admin@sherpur.com' && passInput == 'admin'){
-    window.location.href = 'index.html';
+    window.location.href = 'home.html';
 }
 else{
     window.location.href = 'error.html';

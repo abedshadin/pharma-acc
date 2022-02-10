@@ -99,10 +99,11 @@ list.appendChild(newlist);
 });
 
 document.getElementById('clear').addEventListener('click',function(){
-   const deleteAll = document.getElementsByTagName('tr');
-   for(const deleteTR of deleteAll){
-       deleteTR.remove();
-   }
+   const deleteAll = document.getElementById('tbody');
+  deleteAll.innerHTML =` <tbody id="tbody"></tbody>`;
+  deleteAllo.appendChild(deleteAll);
+
+
     });
 
-
+   
